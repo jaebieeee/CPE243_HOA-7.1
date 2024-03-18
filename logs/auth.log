@@ -1,0 +1,153 @@
+Mar 18 18:19:22 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.46 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 18 18:19:31 server1 gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 18 18:19:31 server1 gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 18 18:19:31 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:19:31 server1 systemd-logind[699]: New session 2 of user jai.
+Mar 18 18:19:31 server1 systemd: pam_unix(systemd-user:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:19:31 server1 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 18 18:19:32 server1 gnome-keyring-daemon[1978]: The Secret Service was already initialized
+Mar 18 18:19:32 server1 gnome-keyring-daemon[1978]: The SSH agent was already initialized
+Mar 18 18:19:32 server1 gnome-keyring-daemon[1978]: The PKCS#11 component was already initialized
+Mar 18 18:19:33 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar 18 18:19:36 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 18 18:19:36 server1 systemd-logind[699]: Session c1 logged out. Waiting for processes to exit.
+Mar 18 18:19:36 server1 systemd-logind[699]: Removed session c1.
+Mar 18 18:19:36 server1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.46, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8) (disconnected from bus)
+Mar 18 18:19:42 server1 dbus-daemon[665]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 18 18:28:02 server1 sshd[3238]: Connection closed by authenticating user jai 192.168.56.107 port 41294 [preauth]
+Mar 18 18:28:02 server1 sshd[3240]: Connection closed by authenticating user jai 192.168.56.107 port 41306 [preauth]
+Mar 18 18:28:10 server1 sshd[3242]: Accepted password for jai from 192.168.56.107 port 41318 ssh2
+Mar 18 18:28:10 server1 sshd[3242]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:28:10 server1 systemd-logind[699]: New session 4 of user jai.
+Mar 18 18:28:10 server1 sshd[3325]: Received disconnect from 192.168.56.107 port 41318:11: disconnected by user
+Mar 18 18:28:10 server1 sshd[3325]: Disconnected from user jai 192.168.56.107 port 41318
+Mar 18 18:28:10 server1 sshd[3242]: pam_unix(sshd:session): session closed for user jai
+Mar 18 18:28:10 server1 systemd-logind[699]: Session 4 logged out. Waiting for processes to exit.
+Mar 18 18:28:13 server1 systemd-logind[699]: Removed session 4.
+Mar 18 18:29:23 server1 sshd[3403]: Accepted password for jai from 127.0.0.1 port 49230 ssh2
+Mar 18 18:29:23 server1 sshd[3403]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:29:23 server1 systemd-logind[699]: New session 5 of user jai.
+Mar 18 18:29:37 server1 sshd[3494]: Accepted publickey for jai from 192.168.56.107 port 39842 ssh2: RSA SHA256:aeVuRGOCXR0sGvSSYUWly0biMJx1mJE+PKa0/ptovtY
+Mar 18 18:29:37 server1 sshd[3494]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:29:37 server1 systemd-logind[699]: New session 6 of user jai.
+Mar 18 18:30:01 server1 CRON[3546]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 18:30:01 server1 CRON[3546]: pam_unix(cron:session): session closed for user root
+Mar 18 18:31:15 server1 sshd[3532]: Received disconnect from 192.168.56.107 port 39842:11: disconnected by user
+Mar 18 18:31:15 server1 sshd[3532]: Disconnected from user jai 192.168.56.107 port 39842
+Mar 18 18:31:15 server1 sshd[3494]: pam_unix(sshd:session): session closed for user jai
+Mar 18 18:31:15 server1 systemd-logind[699]: Session 6 logged out. Waiting for processes to exit.
+Mar 18 18:31:15 server1 systemd-logind[699]: Removed session 6.
+Mar 18 18:31:56 server1 sshd[3632]: Connection closed by authenticating user jai 192.168.56.107 port 49496 [preauth]
+Mar 18 18:31:56 server1 sshd[3634]: Accepted publickey for jai from 192.168.56.107 port 49504 ssh2: RSA SHA256:aeVuRGOCXR0sGvSSYUWly0biMJx1mJE+PKa0/ptovtY
+Mar 18 18:31:56 server1 sshd[3634]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 18:31:56 server1 systemd-logind[699]: New session 8 of user jai.
+Mar 18 18:31:57 server1 sshd[3672]: Received disconnect from 192.168.56.107 port 49504:11: disconnected by user
+Mar 18 18:31:57 server1 sshd[3672]: Disconnected from user jai 192.168.56.107 port 49504
+Mar 18 18:31:57 server1 sshd[3634]: pam_unix(sshd:session): session closed for user jai
+Mar 18 18:31:57 server1 systemd-logind[699]: Session 8 logged out. Waiting for processes to exit.
+Mar 18 18:31:57 server1 systemd-logind[699]: Removed session 8.
+Mar 18 18:39:01 server1 CRON[3986]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 18:39:01 server1 CRON[3986]: pam_unix(cron:session): session closed for user root
+Mar 18 18:53:08 server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar 18 19:08:16 server1 gdm-password]: gkr-pam: unlocked login keyring
+Mar 18 19:09:01 server1 CRON[5476]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 19:09:01 server1 CRON[5476]: pam_unix(cron:session): session closed for user root
+Mar 18 19:11:26 server1 sshd[5616]: Accepted publickey for jai from 192.168.56.107 port 44266 ssh2: RSA SHA256:aeVuRGOCXR0sGvSSYUWly0biMJx1mJE+PKa0/ptovtY
+Mar 18 19:11:26 server1 sshd[5616]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 19:11:26 server1 systemd-logind[699]: New session 11 of user jai.
+Mar 18 19:11:27 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=jai uid=1000 euid=0 tty=/dev/pts/2 ruser=jai rhost=  user=jai
+Mar 18 19:11:29 server1 sudo: pam_unix(sudo:auth): conversation failed
+Mar 18 19:11:29 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [jai]
+Mar 18 19:11:29 server1 sudo:      jai : 1 incorrect password attempt ; TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jhhpcdpgxgxejhxerwifktbufcbbarhf ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760286.7380443-7087-118079593516077/AnsiballZ_setup.py'
+Mar 18 19:11:38 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rcobldgchagpideruutqumiohfjvqjva ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760297.7288382-7108-23968221657323/AnsiballZ_setup.py'
+Mar 18 19:11:38 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:39 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-gobyuhwmgmhevvhdghspfhoadhtoeahh ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760299.1682737-7119-160120269627749/AnsiballZ_find.py'
+Mar 18 19:11:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:39 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-eqvqnozzneotxnsxfdcirwzdbgerhhvj ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760299.6244776-7128-112276994355047/AnsiballZ_slurp.py'
+Mar 18 19:11:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:40 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-gibhitexibthlyabgqyxacjnbfzaqhbf ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760300.040903-7128-74043835958984/AnsiballZ_slurp.py'
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:40 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-mfimotebwbwpourzqfizfhipljmigkuf ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760300.3325987-7128-250840275960995/AnsiballZ_slurp.py'
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:40 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-puafxnhfziwznhzilemsbimwmvqxibsd ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760300.6259146-7128-67235515769200/AnsiballZ_slurp.py'
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:41 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kziayhchjhbiumwyioclgemsenthotkl ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760300.9133847-7128-2488379121824/AnsiballZ_slurp.py'
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:41 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ipbafaqctvbbvzuwpdionhzdienlmhqr ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760301.2159302-7128-54826790565399/AnsiballZ_slurp.py'
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:41 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-puxgbgjdkocrfsnvwgagkwxrdoxvxats ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760301.5166173-7128-225868119925105/AnsiballZ_slurp.py'
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:41 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yygdgwvtsvkagwtpnnffsjzypplbcjfl ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760301.8098729-7128-35008250782015/AnsiballZ_slurp.py'
+Mar 18 19:11:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:42 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:42 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-mvynoeoturdigqgeyjynvhqiytozoxcu ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760302.097137-7128-218679230669696/AnsiballZ_slurp.py'
+Mar 18 19:11:42 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:42 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:11:42 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jsbvjyuznqhncbhfosncxzgtvfdvdxff ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760302.39568-7128-166862750780038/AnsiballZ_slurp.py'
+Mar 18 19:11:42 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:11:42 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:12:42 server1 sshd[5654]: Received disconnect from 192.168.56.107 port 44266:11: disconnected by user
+Mar 18 19:12:42 server1 sshd[5654]: Disconnected from user jai 192.168.56.107 port 44266
+Mar 18 19:12:43 server1 sshd[5616]: pam_unix(sshd:session): session closed for user jai
+Mar 18 19:12:43 server1 systemd-logind[699]: Session 11 logged out. Waiting for processes to exit.
+Mar 18 19:12:43 server1 systemd-logind[699]: Removed session 11.
+Mar 18 19:17:01 server1 CRON[6281]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 18 19:17:01 server1 CRON[6281]: pam_unix(cron:session): session closed for user root
+Mar 18 19:17:09 server1 sshd[6286]: Accepted publickey for jai from 192.168.56.107 port 55016 ssh2: RSA SHA256:aeVuRGOCXR0sGvSSYUWly0biMJx1mJE+PKa0/ptovtY
+Mar 18 19:17:09 server1 sshd[6286]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 19:17:09 server1 systemd-logind[699]: New session 13 of user jai.
+Mar 18 19:17:09 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kedvoowsminxxuripbcuovbzjsdyuuac ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760629.520596-8291-209723404981535/AnsiballZ_setup.py'
+Mar 18 19:17:09 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:17:10 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:17:11 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wuzfmbnliwgkrmygpqwyohxpqbmcrcon ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760631.0906858-8371-236062687770112/AnsiballZ_find.py'
+Mar 18 19:17:11 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:17:11 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:17:11 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-glwyhlqyjtvhhoharoohrgautofqoyoj ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760631.5783834-8383-83053755537442/AnsiballZ_slurp.py'
+Mar 18 19:17:11 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:17:11 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:12 server1 sshd[6324]: Received disconnect from 192.168.56.107 port 55016:11: disconnected by user
+Mar 18 19:18:12 server1 sshd[6324]: Disconnected from user jai 192.168.56.107 port 55016
+Mar 18 19:18:12 server1 sshd[6286]: pam_unix(sshd:session): session closed for user jai
+Mar 18 19:18:12 server1 systemd-logind[699]: Session 13 logged out. Waiting for processes to exit.
+Mar 18 19:18:12 server1 systemd-logind[699]: Removed session 13.
+Mar 18 19:18:13 server1 sshd[7569]: Accepted publickey for jai from 192.168.56.107 port 46238 ssh2: RSA SHA256:aeVuRGOCXR0sGvSSYUWly0biMJx1mJE+PKa0/ptovtY
+Mar 18 19:18:13 server1 sshd[7569]: pam_unix(sshd:session): session opened for user jai(uid=1000) by (uid=0)
+Mar 18 19:18:13 server1 systemd-logind[699]: New session 14 of user jai.
+Mar 18 19:18:14 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-tpzecqyqvparpaiyryqwvxozmtfeexhy ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760693.9117913-10534-122097060892390/AnsiballZ_setup.py'
+Mar 18 19:18:14 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:15 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:15 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lgckuccflgrjsqnvdtzcvwiswdtfmozv ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760695.6017203-10600-13935730158196/AnsiballZ_find.py'
+Mar 18 19:18:15 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:16 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:16 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-qokajpffaprdpamapviyigvvytkwsqel ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760696.2330701-10644-252367646247832/AnsiballZ_slurp.py'
+Mar 18 19:18:16 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:16 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:16 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pyopkmfbamxnxduravtbiuxdouguhaot ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760696.8336205-10644-53361782934779/AnsiballZ_slurp.py'
+Mar 18 19:18:16 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:17 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:17 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lmvhqhnqhmzhxsqobcganjqrranubjoi ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760697.2017581-10644-11808110358167/AnsiballZ_slurp.py'
+Mar 18 19:18:17 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:17 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:17 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ecmsucvwkggjutjbsbvdnwmbgjnshlhp ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760697.563775-10644-142793563903927/AnsiballZ_slurp.py'
+Mar 18 19:18:17 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:17 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:18 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ffdfwssddrhmchpbfbfyrhummmgrrepb ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760697.9037259-10644-98222675339420/AnsiballZ_slurp.py'
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:18 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ivpmfrctpmjffsdvkekmiajmkkpcgjlh ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760698.2485805-10644-224014030077510/AnsiballZ_slurp.py'
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:18 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-exgkuhqnolttardsuddhwoxaelvbcxuq ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760698.6053858-10644-153249004085412/AnsiballZ_slurp.py'
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)
+Mar 18 19:18:18 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 18 19:18:19 server1 sudo:      jai : TTY=pts/2 ; PWD=/home/jai ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-nrlevbkdximyhdgrnyeraelsqpwutdsy ; /usr/bin/python3 /home/jai/.ansible/tmp/ansible-tmp-1710760698.9655545-10644-169095651420824/AnsiballZ_slurp.py'
+Mar 18 19:18:19 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jai(uid=1000)

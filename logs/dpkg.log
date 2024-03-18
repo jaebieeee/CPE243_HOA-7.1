@@ -1,0 +1,33 @@
+2024-03-18 19:17:28 startup packages remove
+2024-03-18 19:17:28 status installed linux-image-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:30 remove linux-image-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1 <none>
+2024-03-18 19:17:30 status half-configured linux-image-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:30 status half-installed linux-image-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:31 status config-files linux-image-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:31 startup packages configure
+2024-03-18 19:17:35 startup packages remove
+2024-03-18 19:17:35 status installed linux-modules-extra-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:35 remove linux-modules-extra-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1 <none>
+2024-03-18 19:17:35 status half-configured linux-modules-extra-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:35 status half-installed linux-modules-extra-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 status config-files linux-modules-extra-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 status installed linux-modules-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 remove linux-modules-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1 <none>
+2024-03-18 19:17:38 status half-configured linux-modules-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 status half-installed linux-modules-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 status config-files linux-modules-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:38 startup packages configure
+2024-03-18 19:17:41 startup packages remove
+2024-03-18 19:17:41 status installed linux-headers-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:41 remove linux-headers-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1 <none>
+2024-03-18 19:17:41 status half-configured linux-headers-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:41 status half-installed linux-headers-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:41 status config-files linux-headers-6.2.0-32-generic:amd64 6.2.0-32.32~22.04.1
+2024-03-18 19:17:41 status not-installed linux-headers-6.2.0-32-generic:amd64 <none>
+2024-03-18 19:17:41 status installed linux-hwe-6.2-headers-6.2.0-32:all 6.2.0-32.32~22.04.1
+2024-03-18 19:17:42 remove linux-hwe-6.2-headers-6.2.0-32:all 6.2.0-32.32~22.04.1 <none>
+2024-03-18 19:17:42 status half-configured linux-hwe-6.2-headers-6.2.0-32:all 6.2.0-32.32~22.04.1
+2024-03-18 19:17:42 status half-installed linux-hwe-6.2-headers-6.2.0-32:all 6.2.0-32.32~22.04.1
+2024-03-18 19:17:46 status config-files linux-hwe-6.2-headers-6.2.0-32:all 6.2.0-32.32~22.04.1
+2024-03-18 19:17:46 status not-installed linux-hwe-6.2-headers-6.2.0-32:all <none>
+2024-03-18 19:17:46 startup packages configure

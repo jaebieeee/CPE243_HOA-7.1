@@ -1,0 +1,6 @@
+Mar 18 18:19:17 server1 kernel: [   13.814859] audit: type=1400 audit(1710757157.889:53): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=1463 comm="snap-confine" capability=12  capname="net_admin"
+Mar 18 18:19:17 server1 kernel: [   13.814867] audit: type=1400 audit(1710757157.889:54): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=1463 comm="snap-confine" capability=38  capname="perfmon"
+Mar 18 18:19:23 server1 kernel: [   18.768047] rfkill: input handler disabled
+Mar 18 18:19:31 server1 kernel: [   27.568800] rfkill: input handler enabled
+Mar 18 18:19:34 server1 kernel: [   29.882683] rfkill: input handler disabled
+Mar 18 18:19:59 server1 kernel: [   55.663821] loop16: detected capacity change from 0 to 130880
