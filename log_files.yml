@@ -1,0 +1,18 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: Collecting Log Files
+    find:
+      paths: /var/log/
+      patterns: '*.log'
+    register: log_files
+
+  - name: Copy Logs From Control Node to Manage Node
+    fetch:
+      src: "{{ item.path }}"
+      dest: "~/CPE243_HOA-7.1/logs/"
+      flat: yes
+    with_items: "{{ log_files.files }}"
